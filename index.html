@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Castles Visited - Interactive registry and log for Japanese castles." />
+  <title>Castles visited</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <!-- Hero Banner Header -->
+    <header class="hero-header">
+      <img src="assets/banner.png" alt="Japanese Castle Banner" class="hero-banner-img" />
+      <div class="hero-overlay">
+        <div class="hero-badge">
+          <span>🏯 Japanese Castles Registry</span>
+        </div>
+        <h1 class="hero-title" id="page-title">Castles visited</h1>
+        <p class="hero-subtitle">
+          A static log and exploration guide of historic Japanese castles, original keeps, reconstructions, and ruins.
+        </p>
+
+        <!-- Dynamic Statistics Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-label">Total Castles</div>
+            <div class="stat-value-group">
+              <span class="stat-number" id="total-castles">120</span>
+              <span class="stat-subtext">registered</span>
+            </div>
+          </div>
+
+          <div class="stat-card visited-card">
+            <div class="stat-label">Castles Visited</div>
+            <div class="stat-value-group">
+              <span class="stat-number" id="visited-count">0</span>
+              <span class="stat-subtext" id="visited-percentage">0%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" id="progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="stat-card original-card">
+            <div class="stat-label">Original Keeps Visited</div>
+            <div class="stat-value-group">
+              <span class="stat-number" id="original-count">0 / 12</span>
+              <span class="stat-subtext">national treasures</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Toolbar Controls (Search, Status Filter, Visited Filter, Sort) -->
+    <div class="toolbar-card">
+      <div class="toolbar-filters">
+        <!-- Realtime Search Input -->
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" 
+                 id="search-input" 
+                 class="input-control" 
+                 placeholder="Search castle name, city, or comment..." 
+                 aria-label="Search castle name, city, or comment" />
+        </div>
+
+        <!-- Status Filter Dropdown -->
+        <select id="status-filter" class="select-control" aria-label="Filter by status">
+          <option value="all">All Statuses</option>
+          <option value="Original">Original Keeps (12)</option>
+          <option value="With buildings">With Buildings</option>
+          <option value="Reconstructed">Reconstructed</option>
+          <option value="Ruins">Ruins</option>
+        </select>
+
+        <!-- Visited Filter Dropdown -->
+        <select id="visited-filter" class="select-control" aria-label="Filter by visited state">
+          <option value="all">All Castles</option>
+          <option value="visited">Visited Only</option>
+          <option value="unvisited">Not Visited Only</option>
+        </select>
+
+        <!-- Sorting Dropdown -->
+        <select id="sort-select" class="select-control" aria-label="Sort castles">
+          <option value="name-asc">Sort: Name (A-Z)</option>
+          <option value="name-desc">Sort: Name (Z-A)</option>
+          <option value="city-asc">Sort: City (A-Z)</option>
+          <option value="status">Sort: Status</option>
+          <option value="visited">Sort: Visited Date</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Main Table Container -->
+    <main class="table-card">
+      <div class="table-responsive">
+        <table class="castles-table" id="castles-table">
+          <thead>
+            <tr>
+              <th class="sortable col-name" data-sort="name">
+                Name <span class="sort-icon">▲</span>
+              </th>
+              <th class="sortable col-city" data-sort="city">
+                City <span class="sort-icon">↕</span>
+              </th>
+              <th class="sortable col-status" data-sort="status">
+                Status <span class="sort-icon">↕</span>
+              </th>
+              <th class="sortable col-visited" data-sort="visited">
+                Visited Date <span class="sort-icon">↕</span>
+              </th>
+              <th class="col-comment">
+                Comment
+              </th>
+            </tr>
+          </thead>
+          <tbody id="castles-tbody">
+            <!-- Castle rows rendered dynamically from castles-data.js -->
+          </tbody>
+        </table>
+
+        <!-- Empty state when search/filter returns zero results -->
+        <div id="empty-state" class="empty-state" style="display: none;">
+          <div class="empty-icon">🏯</div>
+          <h3 class="empty-title">No castles match your search</h3>
+          <p>Try clearing your search query or adjusting your filters.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>
+        <strong>Castles visited</strong> — Static page deployed on GitHub Pages. Data loaded from <code>castles-data.js</code>.
+      </p>
+    </footer>
+  </div>
+
+  <!-- Castles Data JS -->
+  <script src="castles-data.js"></script>
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
