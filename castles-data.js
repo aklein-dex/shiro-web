@@ -617,6 +617,13 @@ const CASTLES_DATA = [
     "comment": "5-story white tower with Christian history museum."
   },
   {
+    "name": "Shimoda Castle",
+    "city": "Shimoda",
+    "status": "Reconstructed",
+    "visited": "2012-05-27",
+    "comment": "S'appelle aussi Uejima castle."
+  },
+  {
     "name": "Shirakawa Castle",
     "city": "Shirakawa",
     "status": "Reconstructed",
@@ -684,6 +691,13 @@ const CASTLES_DATA = [
     "city": "Ina",
     "status": "With buildings",
     "visited": "",
+    "comment": ""
+  },
+  {
+    "name": "Tateyama Castle",
+    "city": "Tateyama",
+    "status": "Reconstructed",
+    "visited": "2011-09-03",
     "comment": ""
   },
   {
