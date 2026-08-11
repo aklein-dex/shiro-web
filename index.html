@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,11 +10,14 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <div class="container">
@@ -28,6 +32,32 @@
         <p class="hero-subtitle">
           A static log and exploration guide of historic Japanese castles, original keeps, reconstructions, and ruins.
         </p>
+
+        <!-- User Selector Buttons (Japanese Feudal Lords) -->
+        <div class="user-selector-bar">
+          <div class="user-buttons-group" role="tablist">
+            <button type="button" class="user-btn active" id="btn-alex" onclick="switchUser('alex')"
+              aria-label="Select Alex">
+              <div class="user-btn-content">
+                <span class="user-clan-tag">Takeda Clan</span>
+                <span class="user-name">Alex</span>
+              </div>
+            </button>
+            <button type="button" class="user-btn" id="btn-greg" onclick="switchUser('greg')" aria-label="Select Greg">
+              <div class="user-btn-content">
+                <span class="user-clan-tag">Oda Clan</span>
+                <span class="user-name">Greg</span>
+              </div>
+            </button>
+            <button type="button" class="user-btn" id="btn-emeric" onclick="switchUser('emeric')"
+              aria-label="Select Emeric">
+              <div class="user-btn-content">
+                <span class="user-clan-tag">Date Clan</span>
+                <span class="user-name">Emeric</span>
+              </div>
+            </button>
+          </div>
+        </div>
 
         <!-- Dynamic Statistics Cards -->
         <div class="stats-grid">
@@ -67,11 +97,8 @@
         <!-- Realtime Search Input -->
         <div class="search-box">
           <span class="search-icon">🔍</span>
-          <input type="text" 
-                 id="search-input" 
-                 class="input-control" 
-                 placeholder="Search castle name, city, or comment..." 
-                 aria-label="Search castle name, city, or comment" />
+          <input type="text" id="search-input" class="input-control"
+            placeholder="Search castle name, city, or comment..." aria-label="Search castle name, city, or comment" />
         </div>
 
         <!-- Status Filter Dropdown -->
@@ -125,7 +152,7 @@
             </tr>
           </thead>
           <tbody id="castles-tbody">
-            <!-- Castle rows rendered dynamically from castles-data.js -->
+            <!-- Castle rows rendered dynamically -->
           </tbody>
         </table>
 
@@ -141,14 +168,17 @@
     <!-- Footer -->
     <footer class="site-footer">
       <p>
-        <strong>Castles visited</strong> — Static page deployed on GitHub Pages. Data loaded from <code>castles-data.js</code>.
+        <strong>Castles visited</strong> — Static page deployed on GitHub Pages.
       </p>
     </footer>
   </div>
 
-  <!-- Castles Data JS -->
+  <!-- Castles Data JS Files -->
   <script src="castles-data.js"></script>
+  <script src="castles-data-greg.js"></script>
+  <script src="castles-data-emeric.js"></script>
   <!-- Application Logic -->
   <script src="app.js"></script>
 </body>
+
 </html>

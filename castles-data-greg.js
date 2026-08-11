@@ -1,11 +1,11 @@
 // Castles Data - loaded by index.html
-var CASTLES_DATA_ALEX = [
+var CASTLES_DATA_GREG = [
   {
     "name": "Aizu Wakamatsu Castle",
     "city": "Aizu Wakamatsu",
     "status": "Reconstructed",
-    "visited": "2025-08-06",
-    "comment": "Unique red roof tile tenshu."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Akashi Castle",
@@ -47,13 +47,13 @@ var CASTLES_DATA_ALEX = [
     "city": "Takahashi",
     "status": "Original",
     "visited": "",
-    "comment": "Highest original keep in Japan, famous castle in the sky."
+    "comment": ""
   },
   {
     "name": "Echizen Ōno Castle",
     "city": "Ōno",
     "status": "Reconstructed",
-    "visited": "2011-08-06",
+    "visited": "",
     "comment": ""
   },
   {
@@ -61,7 +61,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Tokyo",
     "status": "With buildings",
     "visited": "",
-    "comment": "Massive stone wall Tenshudai base in Tokyo Imperial Palace."
+    "comment": ""
   },
   {
     "name": "Fukuchiyama Castle",
@@ -81,7 +81,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Fukuoka Castle",
     "city": "Fukuoka",
     "status": "With buildings",
-    "visited": "2013-07-12",
+    "visited": "",
     "comment": ""
   },
   {
@@ -89,7 +89,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Fukuyama",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "Reconstructed keep right next to the Shinkansen station."
+    "comment": ""
   },
   {
     "name": "Funai Castle",
@@ -102,22 +102,22 @@ var CASTLES_DATA_ALEX = [
     "name": "Fushimi Castle",
     "city": "Kyoto",
     "status": "Reconstructed",
-    "visited": "2012-04-14",
-    "comment": "Tres joli avec les sakuras, mais je ne suis pas alle dedans"
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Gifu Castle",
     "city": "Gifu",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "Panoramic view over Nagara River from Mount Kinka."
+    "comment": ""
   },
   {
     "name": "Goryōkaku Fort",
     "city": "Hakodate",
     "status": "Ruins",
     "visited": "",
-    "comment": "Star-shaped Western-style fortress in Hakodate."
+    "comment": ""
   },
   {
     "name": "Gujo Hachiman Castle",
@@ -159,14 +159,14 @@ var CASTLES_DATA_ALEX = [
     "city": "Hikone",
     "status": "Original",
     "visited": "",
-    "comment": "Original keep with view of Lake Biwa."
+    "comment": ""
   },
   {
     "name": "Himeji Castle",
     "city": "Himeji",
     "status": "Original",
-    "visited": "2009-05-24",
-    "comment": "White Heron Castle - Stunning original keep and UNESCO site."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Hirado Castle",
@@ -179,14 +179,14 @@ var CASTLES_DATA_ALEX = [
     "name": "Hirosaki Castle",
     "city": "Hirosaki",
     "status": "Original",
-    "visited": "2025-11-30",
-    "comment": "Le chateau etait deplace car il y avait des fissures sur la base"
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Hiroshima Castle",
     "city": "Hiroshima",
     "status": "Reconstructed",
-    "visited": "2009-07-18",
+    "visited": "",
     "comment": ""
   },
   {
@@ -207,7 +207,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Iga Ueno Castle",
     "city": "Iga",
     "status": "Reconstructed",
-    "visited": "2009-06-28",
+    "visited": "",
     "comment": ""
   },
   {
@@ -222,7 +222,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Inuyama",
     "status": "Original",
     "visited": "",
-    "comment": "Overlooking Kiso River, one of Japan oldest original keeps."
+    "comment": ""
   },
   {
     "name": "Iwakuni Castle",
@@ -243,7 +243,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Kakegawa",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "First wooden reconstructed tenshu in Japan."
+    "comment": ""
   },
   {
     "name": "Kameyama Castle",
@@ -270,8 +270,8 @@ var CASTLES_DATA_ALEX = [
     "name": "Kanazawa Castle",
     "city": "Kanazawa",
     "status": "With buildings",
-    "visited": "2011-08-04",
-    "comment": "Impressive Ishikawa Gate and Hishi Yagura storehouses."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Kannonji Castle",
@@ -284,7 +284,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Karatsu Castle",
     "city": "Karatsu",
     "status": "Reconstructed",
-    "visited": "2013-07-10",
+    "visited": "",
     "comment": ""
   },
   {
@@ -340,7 +340,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Kokura Castle",
     "city": "Kokura",
     "status": "Reconstructed",
-    "visited": "2013-07-09",
+    "visited": "",
     "comment": ""
   },
   {
@@ -362,7 +362,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Kumamoto",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "Remarkable curved stone wall architecture."
+    "comment": ""
   },
   {
     "name": "Kurume Castle",
@@ -383,7 +383,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Kōchi",
     "status": "Original",
     "visited": "",
-    "comment": "Honmaru palace and tenshu completely preserved."
+    "comment": ""
   },
   {
     "name": "Kōfu Castle",
@@ -396,22 +396,22 @@ var CASTLES_DATA_ALEX = [
     "name": "Marugame Castle",
     "city": "Marugame",
     "status": "Original",
-    "visited": "2013-01-01",
-    "comment": "Impressive stone walls, smallest of the 12 original keeps."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Maruoka Castle",
     "city": "Maruoka",
     "status": "Original",
-    "visited": "2011-08-05",
-    "comment": "Ancient wooden stairs inside the original keep."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Matsue Castle",
     "city": "Matsue",
     "status": "Original",
     "visited": "",
-    "comment": "Black wooden exterior, pleasant moat boat tour."
+    "comment": ""
   },
   {
     "name": "Matsumae Castle",
@@ -424,8 +424,8 @@ var CASTLES_DATA_ALEX = [
     "name": "Matsumoto Castle",
     "city": "Matsumoto",
     "status": "Original",
-    "visited": "2008-12-26",
-    "comment": "Mon premier château! The Crow Castle - Gorgeous black wooden exterior against the Alps."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Matsushiro Castle",
@@ -459,7 +459,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Morioka Castle",
     "city": "Morioka",
     "status": "Ruins",
-    "visited": "2023-07-30",
+    "visited": "",
     "comment": ""
   },
   {
@@ -474,7 +474,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Nagoya",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "Golden shachihoko on roof and restored Honmaru Palace."
+    "comment": ""
   },
   {
     "name": "Najima Castle",
@@ -494,7 +494,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Nakatsu Castle",
     "city": "Nakatsu",
     "status": "Reconstructed",
-    "visited": "2013-07-11",
+    "visited": "",
     "comment": ""
   },
   {
@@ -515,8 +515,8 @@ var CASTLES_DATA_ALEX = [
     "name": "Nijō Castle",
     "city": "Kyoto",
     "status": "With buildings",
-    "visited": "2009-05-29",
-    "comment": "Nightingale floors and shogunate Ninomaru Palace."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Numata Castle",
@@ -536,36 +536,36 @@ var CASTLES_DATA_ALEX = [
     "name": "Odawara Castle",
     "city": "Odawara",
     "status": "Reconstructed",
-    "visited": "2012-05-05",
-    "comment": "Great museum with samurai armor and seaside view."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Oka Castle",
     "city": "Taketa",
     "status": "Ruins",
     "visited": "",
-    "comment": "Dramatic cliffside castle ruins inspired Rentaro Taki."
+    "comment": ""
   },
   {
     "name": "Okayama Castle",
     "city": "Okayama",
     "status": "Reconstructed",
-    "visited": "2013-01-02",
+    "visited": "",
     "comment": ""
   },
   {
     "name": "Okazaki Castle",
     "city": "Okazaki",
     "status": "Reconstructed",
-    "visited": "2011-08-07",
+    "visited": "",
     "comment": ""
   },
   {
     "name": "Osaka Castle",
     "city": "Osaka",
     "status": "Reconstructed",
-    "visited": "2009-05-26",
-    "comment": "Massive stone ramparts and modern museum inside."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Saga Castle",
@@ -600,7 +600,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Sendai",
     "status": "With buildings",
     "visited": "",
-    "comment": "Equestrian statue of Date Masamune with panoramic city view."
+    "comment": ""
   },
   {
     "name": "Shibata Castle",
@@ -614,21 +614,21 @@ var CASTLES_DATA_ALEX = [
     "city": "Shimabara",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "5-story white tower with Christian history museum."
+    "comment": ""
   },
   {
     "name": "Shimoda Castle",
     "city": "Shimoda",
     "status": "Reconstructed",
-    "visited": "2012-05-27",
-    "comment": "S'appelle aussi Uejima castle."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Shirakawa Castle",
     "city": "Shirakawa",
     "status": "Reconstructed",
-    "visited": "2014-07-19",
-    "comment": "c'etait en renovation"
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Shiroishi Castle",
@@ -641,8 +641,8 @@ var CASTLES_DATA_ALEX = [
     "name": "Shuri Castle",
     "city": "Shuri",
     "status": "Reconstructed",
-    "visited": "2009-08-20",
-    "comment": "Ryukyu Kingdom palace grounds."
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Shōryūji Castle",
@@ -697,7 +697,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Tateyama Castle",
     "city": "Tateyama",
     "status": "Reconstructed",
-    "visited": "2011-09-03",
+    "visited": "",
     "comment": ""
   },
   {
@@ -712,13 +712,13 @@ var CASTLES_DATA_ALEX = [
     "city": "Tottori",
     "status": "Ruins",
     "visited": "",
-    "comment": "Imposing mountain ruins and Yamashita stone walls."
+    "comment": ""
   },
   {
     "name": "Toyama Castle",
     "city": "Toyama",
     "status": "Reconstructed",
-    "visited": "2011-08-03",
+    "visited": "",
     "comment": ""
   },
   {
@@ -753,7 +753,7 @@ var CASTLES_DATA_ALEX = [
     "name": "Ueda Castle",
     "city": "Ueda",
     "status": "With buildings",
-    "visited": "2012-06-03",
+    "visited": "",
     "comment": ""
   },
   {
@@ -768,14 +768,14 @@ var CASTLES_DATA_ALEX = [
     "city": "Uwajima",
     "status": "Original",
     "visited": "",
-    "comment": "Original 3-story tenshu on hilltop."
+    "comment": ""
   },
   {
     "name": "Wakayama Castle",
     "city": "Wakayama",
     "status": "Reconstructed",
-    "visited": "2013-05-08",
-    "comment": "Just visite le jardin"
+    "visited": "",
+    "comment": ""
   },
   {
     "name": "Yamagata Castle",
@@ -831,7 +831,7 @@ var CASTLES_DATA_ALEX = [
     "city": "Yoshinogari",
     "status": "Reconstructed",
     "visited": "",
-    "comment": "Reconstructed Yayoi period moated village."
+    "comment": ""
   },
   {
     "name": "Zakimi Castle",

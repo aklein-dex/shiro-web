@@ -1,4 +1,5 @@
 // Castles Visited Web Application Script
+let currentUser = 'alex';
 let castlesData = [];
 let currentSort = { column: 'name', asc: true };
 
@@ -9,15 +10,31 @@ document.addEventListener('DOMContentLoaded', () => {
   render();
 });
 
-// Load castles data from CASTLES_DATA (defined in castles-data.js)
+// Load castles data based on selected user
 function loadCastlesData() {
-  if (typeof CASTLES_DATA !== 'undefined' && Array.isArray(CASTLES_DATA)) {
-    castlesData = CASTLES_DATA;
+  if (currentUser === 'greg') {
+    castlesData = (typeof CASTLES_DATA_GREG !== 'undefined') ? CASTLES_DATA_GREG : [];
+  } else if (currentUser === 'emeric') {
+    castlesData = (typeof CASTLES_DATA_EMERIC !== 'undefined') ? CASTLES_DATA_EMERIC : [];
   } else {
-    console.error("CASTLES_DATA is not defined in castles-data.js!");
-    castlesData = [];
+    // Default user: Alex (from castles-data.js)
+    castlesData = (typeof CASTLES_DATA_ALEX !== 'undefined') ? CASTLES_DATA_ALEX : [];
   }
 }
+
+// User Switcher Function
+window.switchUser = function(user) {
+  if (user !== 'alex' && user !== 'greg' && user !== 'emeric') return;
+  currentUser = user;
+
+  // Update button active classes
+  document.querySelectorAll('.user-btn').forEach(btn => btn.classList.remove('active'));
+  const activeBtn = document.getElementById(`btn-${user}`);
+  if (activeBtn) activeBtn.classList.add('active');
+
+  loadCastlesData();
+  render();
+};
 
 // Setup Event Listeners for Filters & Sorting
 function setupEventListeners() {
