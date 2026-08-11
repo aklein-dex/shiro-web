@@ -4,7 +4,7 @@ const CASTLES_DATA = [
     "name": "Aizu Wakamatsu Castle",
     "city": "Aizu Wakamatsu",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2025-08-06",
     "comment": "Unique red roof tile tenshu."
   },
   {
@@ -53,7 +53,7 @@ const CASTLES_DATA = [
     "name": "Echizen Ōno Castle",
     "city": "Ōno",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2011-08-06",
     "comment": ""
   },
   {
@@ -81,7 +81,7 @@ const CASTLES_DATA = [
     "name": "Fukuoka Castle",
     "city": "Fukuoka",
     "status": "With buildings",
-    "visited": "",
+    "visited": "2013-07-12",
     "comment": ""
   },
   {
@@ -102,8 +102,8 @@ const CASTLES_DATA = [
     "name": "Fushimi Castle",
     "city": "Kyoto",
     "status": "Reconstructed",
-    "visited": "",
-    "comment": ""
+    "visited": "2012-04-14",
+    "comment": "Tres joli avec les sakuras, mais je ne suis pas alle dedans"
   },
   {
     "name": "Gifu Castle",
@@ -165,7 +165,7 @@ const CASTLES_DATA = [
     "name": "Himeji Castle",
     "city": "Himeji",
     "status": "Original",
-    "visited": "",
+    "visited": "2009-05-24",
     "comment": "White Heron Castle - Stunning original keep and UNESCO site."
   },
   {
@@ -179,14 +179,14 @@ const CASTLES_DATA = [
     "name": "Hirosaki Castle",
     "city": "Hirosaki",
     "status": "Original",
-    "visited": "",
-    "comment": "Beautiful park and cherry blossoms."
+    "visited": "2025-11-30",
+    "comment": "Le chateau etait deplace car il y avait des fissures sur la base"
   },
   {
     "name": "Hiroshima Castle",
     "city": "Hiroshima",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2009-07-18",
     "comment": ""
   },
   {
@@ -207,7 +207,7 @@ const CASTLES_DATA = [
     "name": "Iga Ueno Castle",
     "city": "Iga",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2009-06-28",
     "comment": ""
   },
   {
@@ -270,7 +270,7 @@ const CASTLES_DATA = [
     "name": "Kanazawa Castle",
     "city": "Kanazawa",
     "status": "With buildings",
-    "visited": "",
+    "visited": "2011-08-04",
     "comment": "Impressive Ishikawa Gate and Hishi Yagura storehouses."
   },
   {
@@ -284,7 +284,7 @@ const CASTLES_DATA = [
     "name": "Karatsu Castle",
     "city": "Karatsu",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2013-07-10",
     "comment": ""
   },
   {
@@ -340,7 +340,7 @@ const CASTLES_DATA = [
     "name": "Kokura Castle",
     "city": "Kokura",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2013-07-09",
     "comment": ""
   },
   {
@@ -396,14 +396,14 @@ const CASTLES_DATA = [
     "name": "Marugame Castle",
     "city": "Marugame",
     "status": "Original",
-    "visited": "",
+    "visited": "2013-01-01",
     "comment": "Impressive stone walls, smallest of the 12 original keeps."
   },
   {
     "name": "Maruoka Castle",
     "city": "Maruoka",
     "status": "Original",
-    "visited": "",
+    "visited": "2011-08-05",
     "comment": "Ancient wooden stairs inside the original keep."
   },
   {
@@ -424,8 +424,8 @@ const CASTLES_DATA = [
     "name": "Matsumoto Castle",
     "city": "Matsumoto",
     "status": "Original",
-    "visited": "",
-    "comment": "The Crow Castle - Gorgeous black wooden exterior against the Alps."
+    "visited": "2008-12-26",
+    "comment": "Mon premier château! The Crow Castle - Gorgeous black wooden exterior against the Alps."
   },
   {
     "name": "Matsushiro Castle",
@@ -459,7 +459,7 @@ const CASTLES_DATA = [
     "name": "Morioka Castle",
     "city": "Morioka",
     "status": "Ruins",
-    "visited": "",
+    "visited": "2023-07-30",
     "comment": ""
   },
   {
@@ -494,7 +494,7 @@ const CASTLES_DATA = [
     "name": "Nakatsu Castle",
     "city": "Nakatsu",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2013-07-11",
     "comment": ""
   },
   {
@@ -515,7 +515,7 @@ const CASTLES_DATA = [
     "name": "Nijō Castle",
     "city": "Kyoto",
     "status": "With buildings",
-    "visited": "",
+    "visited": "2009-05-29",
     "comment": "Nightingale floors and shogunate Ninomaru Palace."
   },
   {
@@ -536,7 +536,7 @@ const CASTLES_DATA = [
     "name": "Odawara Castle",
     "city": "Odawara",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2012-05-05",
     "comment": "Great museum with samurai armor and seaside view."
   },
   {
@@ -550,21 +550,21 @@ const CASTLES_DATA = [
     "name": "Okayama Castle",
     "city": "Okayama",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2013-01-02",
     "comment": ""
   },
   {
     "name": "Okazaki Castle",
     "city": "Okazaki",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2011-08-07",
     "comment": ""
   },
   {
     "name": "Osaka Castle",
     "city": "Osaka",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2009-05-26",
     "comment": "Massive stone ramparts and modern museum inside."
   },
   {
@@ -620,8 +620,8 @@ const CASTLES_DATA = [
     "name": "Shirakawa Castle",
     "city": "Shirakawa",
     "status": "Reconstructed",
-    "visited": "",
-    "comment": ""
+    "visited": "2014-07-19",
+    "comment": "c'etait en renovation"
   },
   {
     "name": "Shiroishi Castle",
@@ -634,7 +634,7 @@ const CASTLES_DATA = [
     "name": "Shuri Castle",
     "city": "Shuri",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2009-08-20",
     "comment": "Ryukyu Kingdom palace grounds."
   },
   {
@@ -704,7 +704,7 @@ const CASTLES_DATA = [
     "name": "Toyama Castle",
     "city": "Toyama",
     "status": "Reconstructed",
-    "visited": "",
+    "visited": "2011-08-03",
     "comment": ""
   },
   {
@@ -739,7 +739,7 @@ const CASTLES_DATA = [
     "name": "Ueda Castle",
     "city": "Ueda",
     "status": "With buildings",
-    "visited": "",
+    "visited": "2012-06-03",
     "comment": ""
   },
   {
@@ -760,8 +760,8 @@ const CASTLES_DATA = [
     "name": "Wakayama Castle",
     "city": "Wakayama",
     "status": "Reconstructed",
-    "visited": "",
-    "comment": ""
+    "visited": "2013-05-08",
+    "comment": "Just visite le jardin"
   },
   {
     "name": "Yamagata Castle",
